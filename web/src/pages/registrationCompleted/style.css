@@ -1,0 +1,130 @@
+#page-registration-complete {
+    height: 100vh;
+    background-color: #0E0A14;
+    opacity: 0.95;
+  }
+  
+  #page-registration-complete .content {
+    width: 100%;
+    height: 100%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* #page-registration-complete .content header {
+    margin: 48px 0 0;
+  } */
+  
+  #page-registration-complete .content main {
+    flex: 1;
+    /* max-width: 560px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #page-registration-complete .content main h1 {
+    font-size: 54px;
+    width: 100%;
+    height: 42px;
+    left: 0px;
+    top: 88px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #F0F0F5;
+  }
+  
+  /* #page-registration-complete .content main p {
+    font-size: 24px;
+    margin-top: 24px;
+    line-height: 38px;
+  } */
+  
+  #page-registration-complete .content main a {
+    width: 100%;
+    max-width: 360px;
+    height: 72px;
+    background: var(--primary-color);
+    border-radius: 8px;
+    text-decoration: none;
+  
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  
+    margin-top: 40px;
+  }
+  
+  #page-registration-complete .content main a span {
+    display: block;
+    background: rgba(0, 0, 0, 0.08);
+    width: 72px;
+    height: 72px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+  }
+  
+  #page-registration-complete .content main a span svg {
+    color: #FFF;
+    width: 20px;
+    height: 20px;
+  }
+
+  #page-registration-complete .checked svg {
+    color: #34CB79;
+    width: 64px;
+    height: 64px;
+    top: 0px;
+  }
+
+  #page-registration-complete .checked {    
+    /* justify-content: center; */
+    /* flex: 1; */
+    position: fixed button;
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #page-registration-complete .content main a strong {
+    flex: 1;
+    text-align: center;
+    color: #FFF;
+  }
+  
+  #page-registration-complete .content main a:hover {
+    background: #2FB86E;
+  }
+  
+  @media(max-width: 900px) {
+    #page-registration-complete .content {
+      align-items: center;
+      text-align: center;
+    }
+  
+    #page-registration-complete .content header {
+      margin: 48px auto 0;
+    }
+  
+    #page-registration-complete .content main {
+      align-items: center;
+    }
+  
+    #page-registration-complete .content main h1 {
+      font-size: 42px;
+    }
+  
+    #page-registration-complete .content main p {
+      font-size: 24px;
+    }
+  }
+  
