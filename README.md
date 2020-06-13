@@ -1,6 +1,7 @@
 
-<img src="./assets/EcoletaCapa.png" align="center"  border=5 ></img> 
-<h1 align="center">Ecoleta</h1>
+<h1 align="center">
+  <img src="./assets/EcoletaCapa.png" border=5 width=85% ></img> 
+</h1>
 <p align="center">Projeto desenvolvido durante a NLW (Next Level Week) da <a href="https://rocketseat.com.br">Rocketseat</a> 🚀</p>
 
 <p align="center">
@@ -23,7 +24,7 @@
 
 <p align="center">
   <a href="https://twitter.com/edgarfeliciano" target="_blank">
-    <img alt="Twitter: maykbrito" src="https://img.shields.io/twitter/follow/edgarfeliciano.svg?style=social" />
+    <img alt="Twitter: Edgar Feliciano" src="https://img.shields.io/twitter/follow/edgarfeliciano.svg?style=social" />
   </a>
   <a href="https://www.linkedin.com/in/edgar-amado-52478619a/">
     <img alt="Made by Edgar" src="https://img.shields.io/badge/made%20by-Edgar%20de%20Jesus-%2334CB79">
